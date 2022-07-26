@@ -1,4 +1,4 @@
-import Linkedin from "../src/assets/linkedin.png"
+import Linkedin from "./linkedin.png"
 
 export default function Info() {
   return (
