@@ -1,6 +1,6 @@
 import Linkedin from "./linkedin.png";
 import Picture from "./picture.png";
-import Mail from "./Mail.png";
+import Mail from "/images/Mail.png";
 
 export default function Info() {
   return (
