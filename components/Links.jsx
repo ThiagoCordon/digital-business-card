@@ -1,10 +1,14 @@
+import Twitter from "./Twitter.png";
+import Facebook from "./facebook.png";
+import Instagram from "./Instagram.png";
+import Github from "./Github.png";
 export default function Links() {
   return (
     <div className="links">
-      <img src="./src/assets/Twitter.png" alt="tw" />
-      <img src="./src/assets/facebook.png" alt="fb" />
-      <img src="./src/assets/Instagram.png" alt="ig" />
-      <img src="./src/assets/GitHub.png" alt="github" />
+      <img src={Twitter} alt="tw" />
+      <img src={Facebook} alt="fb" />
+      <img src={Instagram} alt="ig" />
+      <img src={Github} alt="github" />
     </div>
   );
 }
