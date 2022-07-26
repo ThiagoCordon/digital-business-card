@@ -9,10 +9,10 @@ export default function Info() {
       </div>
       <div className="buttons">
         <button>
-          <img src="" alt="mail" /> <p>Email</p>
+          <img src="./images/Mail.png" alt="mail" /> <p>Email</p>
         </button>
         <button className="linkedin">
-          <img src="" alt="linkedin" />
+          <img src="./images/linkedin.png" alt="linkedin" />
           <p>LinkedIn</p>
         </button>
       </div>
