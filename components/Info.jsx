@@ -1,11 +1,7 @@
-import Linkedin from "./linkedin.png";
-import Picture from "./picture.png";
-import Mail from "./images/Mail.png";
-
 export default function Info() {
   return (
     <div className="info">
-      <img src="/images/Picture.png" alt="woman" />
+      <img src="./images/Picture.png" alt="woman" />
       <div className="information">
         <h1>Laura Smith</h1>
         <h2>Frontend Developer</h2>
@@ -13,10 +9,10 @@ export default function Info() {
       </div>
       <div className="buttons">
         <button>
-          <img src={Mail} alt="mail" /> <p>Email</p>
+          <img src="" alt="mail" /> <p>Email</p>
         </button>
         <button className="linkedin">
-          <img src={Linkedin} alt="linkedin" />
+          <img src="" alt="linkedin" />
           <p>LinkedIn</p>
         </button>
       </div>
