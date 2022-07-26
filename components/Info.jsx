@@ -1,3 +1,5 @@
+import Linkedin from "../src/assets/linkedin.png"
+
 export default function Info() {
   return (
     <div className="info">
@@ -12,7 +14,7 @@ export default function Info() {
           <img src="./src/assets/Mail.png" alt="mail" /> <p>Email</p>
         </button>
         <button className="linkedin">
-          <img src="./src/assets/linkedin.png" alt="linkedin" />
+          <img src={Linkedin} alt="linkedin" />
           <p>LinkedIn</p>
         </button>
       </div>
